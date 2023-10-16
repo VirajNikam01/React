@@ -1,0 +1,14 @@
+{
+  "name": "coding",
+  "version": "1.0.0",
+  "description": "Episode 2 ",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "viraj nikam",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.0"
+  }
+}
