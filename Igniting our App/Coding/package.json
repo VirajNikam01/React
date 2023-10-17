@@ -2,7 +2,7 @@
   "name": "coding",
   "version": "1.0.0",
   "description": "Episode 2 ",
-  "main": "App.js",
+
   "scripts": {
     "test": "jest"
   },

@@ -1,0 +1,37 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    padding: 8px 150px;
+    min-height: 80px;
+    
+}
+.search-box{
+    background-color: white;
+    padding: 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+input{
+    border: none;
+    outline: none;
+    padding: 8px;
+    font-size: 15px;
+}
+.user{
+    font-size: 25px;
+}
+.logo, .user, .search{
+    cursor: pointer;
+}
+.logo{
+    font-size: 40px;
+}
+.search{
+   margin-inline:  10px;
+   color: black;
+   
+}
