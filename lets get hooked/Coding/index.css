@@ -81,10 +81,7 @@ html,body{
 
 /* Search Component */
 .search{
-    margin-block: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    margin-top: 50px;
 }
 .search h3 span{
     color: rgb(62, 60, 59);
@@ -110,6 +107,7 @@ input::placeholder{
     flex-wrap: wrap;
     row-gap: 50px;
     width: 100%;
+    margin-top: 60px;
 }
 .resto-card{
     height: 350px;
@@ -168,4 +166,34 @@ input::placeholder{
 .footer p{
     font-weight: bold;
     color: #413f3f;
+}
+.wrap{
+    margin-bottom: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.filter-btn{
+    margin: 5px 0 20px 0;
+    padding: 4px 10px;
+    border: none;
+    background-color: teal;
+    border-radius: 6px;
+    color: white;
+    font-size: 19px;
+    margin-inline: 70px;
+}
+.shimmer_container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 50px;
+    height: fit-content;
+}
+.shimmer{
+    width:300px;
+    height: 200px;
+    border-radius: 9px;
+    background-color: #f0f0f0;
 }

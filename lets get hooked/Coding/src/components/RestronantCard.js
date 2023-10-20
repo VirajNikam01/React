@@ -1,8 +1,7 @@
 import { CDN_URL } from "../../utils/contstants";
 
 const RestronantCard = ({ data }) => {
-  const { cloudinaryImageId, name, cuisines, costForTwoString, deliveryTime } =
-    data;
+  const {name, cuisines, costForTwo, avgRating, cloudinaryImageId  } = data;
   return (
     <div className="resto-card">
       <img alt="image" src={CDN_URL + cloudinaryImageId} />
@@ -14,9 +13,9 @@ const RestronantCard = ({ data }) => {
           </div>
         </div>
         <div className="left-info">
-          <p>{costForTwoString}</p>
+          <p>{costForTwo}</p>
           <p>
-            <b>{deliveryTime} min</b>
+            <b>{avgRating} </b>
           </p>
         </div>
       </div>

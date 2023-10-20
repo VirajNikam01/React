@@ -1,5 +1,5 @@
 // RestaurantList is JSON Data for displaying cards
-export const restaurantList = [
+export const restaurantData = [
     {
       type: "restaurant",
       data: {
